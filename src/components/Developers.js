@@ -90,7 +90,7 @@ export default function Developers() {
                       title="Github"
                     ></i>
                   </a>
-                  <a href={student.email}>
+                  <a href={`mailto:${student.email}`}>
                     <i
                       className="fas fa-envelope fa-2x contact__icon"
                       title="Email"
