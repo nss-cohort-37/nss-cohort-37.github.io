@@ -25,7 +25,7 @@ export default function Header() {
             alt="NSS Logo"
           />
           <NavbarText style={{ padding: "8px" }}>
-            Cohort 37 | Demo Day May 21
+            Cohort 37 <span id="brand__demo-date">| Demo Day May 21</span>
           </NavbarText>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
