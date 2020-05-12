@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Button,
   Card,
   CardImg,
   CardText,
@@ -16,7 +17,7 @@ export default function Developers() {
 
   return (
     <div>
-      <a id="thedevelopers"></a>
+      <a id="thedevelopers" name="thedevelopers" className="section-header"></a>
       <nav
         id="jumbheader"
         className="navbar navbar-light bg-light section__header"
@@ -40,7 +41,7 @@ export default function Developers() {
           {cohort.map((student) => (
             <div
               key={student.id}
-              className="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-2"
+              className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2"
             >
               <Card className="developers__card cohortMems mx-2">
                 <CardImg
@@ -63,6 +64,17 @@ export default function Developers() {
                     ></span>
                   </CardText>
                 </CardBody>
+                <CardFooter className="contact">
+                  <div className="row">
+                    {student.resume && (
+                      <a target="_blank" href={`/resumes/${student.resume}`}>
+                        <Button outline color="warning">
+                          View Resume
+                        </Button>
+                      </a>
+                    )}
+                  </div>
+                </CardFooter>
                 <CardFooter className="contact">
                   {student.portfolio && (
                     <a href={student.portfolio}>

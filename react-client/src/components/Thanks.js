@@ -3,6 +3,7 @@ import React from "react";
 export default function Thanks() {
   return (
     <div>
+      <a id="thanks" name="thanks" className="section-header"></a>
       <div style={{ margin: "64px 0" }}>
         <a id="techsection"></a>
         <nav
@@ -14,7 +15,7 @@ export default function Thanks() {
           </span>
         </nav>
       </div>
-      <div class="container words">
+      <div className="container words">
         <div id="thanks">
           <p>
             Six months ago we entered Nashville Software School with a hope of

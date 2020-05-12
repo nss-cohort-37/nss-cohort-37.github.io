@@ -9,7 +9,6 @@ import {
   NavLink,
   NavItem,
 } from "reactstrap";
-import logo from "../images/nss-logo-compact.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +20,7 @@ export default function Header() {
       <Navbar className="fixed-top" color="light" light expand="md">
         <NavbarBrand href="/">
           <img
-            src={logo}
+            src="images/nss-logo-compact.png"
             className="d-inline-block align-top logo"
             alt="NSS Logo"
           />
@@ -33,22 +32,16 @@ export default function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Home</NavLink>
+              <NavLink href="#home">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Developers
-              </NavLink>
+              <NavLink href="#thedevelopers">Developers</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Technologies
-              </NavLink>
+              <NavLink href="#techsection">Technologies</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Thanks
-              </NavLink>
+              <NavLink href="#thanks">Thanks</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -4,8 +4,8 @@ import { techs } from "../data/techs.json";
 export default function Technologies() {
   return (
     <div>
+      <a id="techsection" name="techsection" className="section-header"></a>
       <div style={{ margin: "64px 0" }}>
-        <a id="techsection"></a>
         <nav
           id="jumbheader"
           className="navbar navbar-light bg-light section__header"
@@ -18,7 +18,7 @@ export default function Technologies() {
       <div className="container technos">
         <div id="techs" className="row justify-content-between">
           {techs.map((tech) => (
-            <div key={tech.id} className="col-lg-2 p-4">
+            <div key={tech.id} className="col-4 col-xs-4 col-sm-4 col-md-2 p-4">
               <a href={tech.link}>
                 <img
                   className="technology"

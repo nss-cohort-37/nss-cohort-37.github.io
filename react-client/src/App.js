@@ -14,7 +14,7 @@ function App() {
       <Developers />
       <Technologies />
       <Thanks />
-      <footer class="navbar navbar-light bg-light footer">
+      <footer className="navbar navbar-light bg-light footer">
         <p>&copy; 2020. Nashville Software School Cohort 37.</p>
       </footer>
     </div>
