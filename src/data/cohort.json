@@ -35,7 +35,8 @@
       "portfolio": "http://taylorhcarroll.com",
       "email": "taylorhcarroll1@gmail.com",
       "proImg": "TaylorCarroll.png",
-      "funImg": "TaylorCarroll.png"
+      "funImg": "TaylorCarroll.png",
+      "resume": "TaylorCarroll.pdf"
     },
     {
       "id": 4,
@@ -59,7 +60,8 @@
       "portfolio": "https://garrettfreshwater-nss.github.io/",
       "email": "garrettfreshwater@gmail.com",
       "proImg": "GarrettFreshwater.png",
-      "funImg": "BW-GarrettFreshwater.png"
+      "funImg": "BW-GarrettFreshwater.png",
+      "resume": "GarrettFreshwater.pdf"
     },
     {
       "id": 7,
@@ -71,7 +73,8 @@
       "portfolio": "https://macgibbons.github.io/",
       "email": "macgibbons@gmail.com",
       "proImg": "MacGibbons.png",
-      "funImg": "MacGibbons.png"
+      "funImg": "MacGibbons.png",
+      "resume": "MacGibbons.pdf"
     },
     {
       "id": 8,
@@ -83,7 +86,8 @@
       "portfolio": "https://jwgilliam.github.io/",
       "email": "jwgilliam.developer@gmail.com",
       "proImg": "JohnGilliam.png",
-      "funImg": "JohnGilliam.png"
+      "funImg": "JohnGilliam.png",
+      "resume": "JohnGilliam.pdf"
     },
     {
       "id": 9,
@@ -219,7 +223,8 @@
       "portfolio": "https://casescally.github.io",
       "email": "casescally@gmail.com",
       "proImg": "CaseScally.png",
-      "funImg": "CaseScally.png"
+      "funImg": "CaseScally.png",
+      "resume": "CaseScally.pdf"
     },
     {
       "id": 20,
@@ -294,7 +299,8 @@
       "portfolio": "https://www.onteriowright.com/",
       "email": "onteriowright@gmail.com",
       "proImg": "OnterioWright.png",
-      "funImg": "BW-OnterioWright.png"
+      "funImg": "BW-OnterioWright.png",
+      "resume": "OnterioWrightResume.pdf"
     }
   ]
 }
