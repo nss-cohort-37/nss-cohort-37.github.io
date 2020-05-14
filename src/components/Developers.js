@@ -37,6 +37,17 @@ export default function Developers() {
       </div>
 
       <div className="container">
+        <iframe
+          width="100%"
+          height="450"
+          scrolling="no"
+          frameBorder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1046419258%3Fsecret_token%3Ds-Qu4gQDYxNbG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"
+        ></iframe>
+      </div>
+
+      <div className="container">
         <div className="row">
           {cohort.map((student) => (
             <div
