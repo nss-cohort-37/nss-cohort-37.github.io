@@ -48,7 +48,8 @@
       "portfolio": "https://lcluischavez.github.io/",
       "email": "LCLuisChavezz@gmail.com",
       "proImg": "LuisChavez.png",
-      "funImg": "LuisChavez.png"
+      "funImg": "LuisChavez.png",
+      "resume": "LuisChavez.pdf"
     },
     {
       "id": 6,
@@ -126,16 +127,6 @@
       "proImg": "NamitaManohar.png",
       "funImg": "BW-NamitaManohar.png",
       "resume": "NManohar.pdf"
-    },
-    {
-      "id": 12,
-      "firstName": "Phillip",
-      "lastName": "Martin",
-      "github": "https://github.com/philipDmartin",
-      "linkedIn": "https://www.linkedin.com/in/philip-martin-2001/",
-      "email": "philipnathan788@gmail.com",
-      "proImg": "PhillipMartin.png",
-      "funImg": "PhillipMartin.png"
     },
     {
       "id": 13,
