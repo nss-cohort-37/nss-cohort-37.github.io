@@ -146,7 +146,7 @@ export default function Developers() {
       {!!activeDemoStudent && (
         <Modal
           isOpen={!!activeDemoStudent}
-          toggle={toggle}
+          toggle={() => toggle(null)}
           className="capstone__modal"
         >
           <ModalHeader
