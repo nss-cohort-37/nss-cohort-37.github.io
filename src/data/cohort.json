@@ -10,7 +10,8 @@
       "email": "danielbradleybennett@gmail.com",
       "proImg": "DanielBennett.png",
       "funImg": "DanielBennett.png",
-      "resume": "DanielBennett.pdf"
+      "resume": "DanielBennett.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 2,
@@ -23,7 +24,8 @@
       "email": "audrey.borgra@gmail.com",
       "proImg": "AudreyBorgra.png",
       "funImg": "BW-AudreyBorgra.png",
-      "resume": "AudreyBorgra-Resume.pdf"
+      "resume": "AudreyBorgra-Resume.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 3,
@@ -36,7 +38,8 @@
       "email": "taylorhcarroll1@gmail.com",
       "proImg": "TaylorCarroll.png",
       "funImg": "TaylorCarroll.png",
-      "resume": "TaylorCarroll.pdf"
+      "resume": "TaylorCarroll.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 4,
@@ -49,7 +52,8 @@
       "email": "LCLuisChavezz@gmail.com",
       "proImg": "LuisChavez.png",
       "funImg": "LuisChavez.png",
-      "resume": "LuisChavez.pdf"
+      "resume": "LuisChavez.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 6,
@@ -62,7 +66,8 @@
       "email": "garrettfreshwater@gmail.com",
       "proImg": "GarrettFreshwater.png",
       "funImg": "BW-GarrettFreshwater.png",
-      "resume": "GarrettFreshwater.pdf"
+      "resume": "GarrettFreshwater.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 7,
@@ -75,7 +80,8 @@
       "email": "macgibbons@gmail.com",
       "proImg": "MacGibbons.png",
       "funImg": "MacGibbons.png",
-      "resume": "MacGibbons.pdf"
+      "resume": "MacGibbons.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 8,
@@ -88,7 +94,8 @@
       "email": "jwgilliam.developer@gmail.com",
       "proImg": "JohnGilliam.png",
       "funImg": "JohnGilliam.png",
-      "resume": "JohnGilliam.pdf"
+      "resume": "JohnGilliam.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 9,
@@ -113,7 +120,8 @@
       "email": "maggie.greene96@gmail.com",
       "proImg": "MaggieGreene.png",
       "funImg": "MaggieGreene.png",
-      "resume": "MaggieGreene.pdf"
+      "resume": "MaggieGreene.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 11,
@@ -126,7 +134,8 @@
       "email": "manohar.namita@gmail.com",
       "proImg": "NamitaManohar.png",
       "funImg": "BW-NamitaManohar.png",
-      "resume": "NManohar.pdf"
+      "resume": "NManohar.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 13,
@@ -139,7 +148,8 @@
       "email": "jcoffeymay6@gmail.com",
       "proImg": "CoffeyMay.png",
       "funImg": "BW-CoffeyMay.png",
-      "resume": "CoffeyMay.pdf"
+      "resume": "CoffeyMay.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 14,
@@ -152,7 +162,8 @@
       "email": "william.g.metcalf@gmail.com",
       "proImg": "WillyMetcalf.png",
       "funImg": "BW-WillyMetcalf.png",
-      "resume": "WillyMetcalf.pdf"
+      "resume": "WillyMetcalf.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 15,
@@ -165,7 +176,8 @@
       "email": "jamesanitz2@gmail.com",
       "proImg": "JamesNitz.png",
       "funImg": "BW-JamesNitz.png",
-      "resume": "JamesNitz.pdf"
+      "resume": "JamesNitz.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 16,
@@ -178,7 +190,8 @@
       "email": "parkerholdenw@gmail.com",
       "proImg": "HoldenParker.png",
       "funImg": "BW-HoldenParker.png",
-      "resume": "HoldenParker.pdf"
+      "resume": "HoldenParker.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 17,
@@ -190,7 +203,8 @@
       "email": "rebeccapatek@gmail.com",
       "proImg": "RebeccaPatek.png",
       "funImg": "RebeccaPatek.png",
-      "resume": "RebeccaPatek.pdf"
+      "resume": "RebeccaPatek.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 18,
@@ -202,7 +216,8 @@
       "email": "kevin.penny333@gmail.com",
       "proImg": "KevinPenny.png",
       "funImg": "BW-KevinPenny.png",
-      "resume": "KevinPenny.pdf"
+      "resume": "KevinPenny.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 19,
@@ -215,7 +230,8 @@
       "email": "casescally@gmail.com",
       "proImg": "CaseScally.png",
       "funImg": "CaseScally.png",
-      "resume": "CaseScally.pdf"
+      "resume": "CaseScally.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 20,
@@ -228,7 +244,8 @@
       "email": "elitamez17@gmail.com",
       "proImg": "EliTamez.png",
       "funImg": "EliTamez.png",
-      "resume": "EliTamez.pdf"
+      "resume": "EliTamez.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 21,
@@ -241,7 +258,8 @@
       "email": "struett.developer@gmail.com",
       "proImg": "SpencerTruett.png",
       "funImg": "SpencerTruett.png",
-      "resume": "SpencerTruett.pdf"
+      "resume": "SpencerTruett.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 22,
@@ -254,7 +272,8 @@
       "email": "jansenv44@gmail.com",
       "proImg": "JansenVanDerSpuy.png",
       "funImg": "BW-JansenVanDerSpuy.png",
-      "resume": "Jansen.pdf"
+      "resume": "Jansen.pdf",
+      "capstoneUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
       "id": 23,
@@ -267,7 +286,8 @@
       "email": "aja.washington13@gmail.com",
       "proImg": "AjaWashington.png",
       "funImg": "BW-AjaWashington.png",
-      "resume": "AjaWashington.pdf"
+      "resume": "AjaWashington.pdf",
+      "capstoneUrl": ""
     },
     {
       "id": 24,
@@ -291,7 +311,8 @@
       "email": "onteriowright@gmail.com",
       "proImg": "OnterioWright.png",
       "funImg": "BW-OnterioWright.png",
-      "resume": "OnterioWrightResume.pdf"
+      "resume": "OnterioWrightResume.pdf",
+      "capstoneUrl": ""
     }
   ]
 }

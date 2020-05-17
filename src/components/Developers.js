@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Button,
+  ButtonGroup,
   Card,
   CardImg,
   CardText,
   CardBody,
   CardTitle,
   CardFooter,
+  Modal,
+  ModalHeader,
+  ModalBody,
 } from "reactstrap";
 import { cohort } from "../data/cohort.json";
 
@@ -14,6 +18,9 @@ export default function Developers() {
   const createCardTextMarkup = (text) => {
     return { __html: text };
   };
+
+  const [activeDemoStudent, setActiveDemoStudent] = useState();
+  const toggle = (student) => setActiveDemoStudent(student);
 
   return (
     <div>
@@ -39,6 +46,7 @@ export default function Developers() {
       <div className="container">
         <iframe
           width="100%"
+          title="podcasts"
           height="450"
           scrolling="no"
           frameBorder="no"
@@ -48,7 +56,7 @@ export default function Developers() {
       </div>
 
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-start">
           {cohort.map((student) => (
             <div
               key={student.id}
@@ -77,13 +85,29 @@ export default function Developers() {
                 </CardBody>
                 <CardFooter className="contact">
                   <div className="row">
-                    {student.resume && (
-                      <a target="_blank" href={`/resumes/${student.resume}`}>
-                        <Button outline color="warning">
-                          View Resume
+                    <ButtonGroup>
+                      {student.capstoneUrl && (
+                        <Button
+                          outline
+                          color="warning"
+                          onClick={() => toggle(student)}
+                        >
+                          Capstone
                         </Button>
-                      </a>
-                    )}
+                      )}
+                      {student.resume && (
+                        <Button outline color="warning">
+                          <a
+                            rel="noopener noreferrer"
+                            className="button-group__link"
+                            target="_blank"
+                            href={`/resumes/${student.resume}`}
+                          >
+                            Resume
+                          </a>
+                        </Button>
+                      )}
+                    </ButtonGroup>
                   </div>
                 </CardFooter>
                 <CardFooter className="contact">
@@ -119,6 +143,35 @@ export default function Developers() {
           ))}
         </div>
       </div>
+      {!!activeDemoStudent && (
+        <Modal
+          isOpen={!!activeDemoStudent}
+          toggle={toggle}
+          className="capstone__modal"
+        >
+          <ModalHeader
+            className="capstone__modal-header"
+            toggle={() => toggle(null)}
+          >
+            {activeDemoStudent.firstName} {activeDemoStudent.lastName} Final
+            Capstone
+          </ModalHeader>
+          <ModalBody className="capstone__modal-body">
+            <div className="iframe-container">
+              <iframe
+                className="capstone__modal-iframe"
+                title="Capstone"
+                width="100%"
+                height="100%"
+                src={activeDemoStudent.capstoneUrl}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </ModalBody>
+        </Modal>
+      )}
     </div>
   );
 }
