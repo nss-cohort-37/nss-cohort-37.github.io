@@ -98,19 +98,6 @@
       "capstoneUrl": "https://www.youtube.com/embed/JuzU2vwIaSg"
     },
     {
-      "id": 9,
-      "firstName": "William",
-      "lastName": "Green",
-      "reelThemIn": "Dog dog = new Dog()",
-      "github": "https://github.com/wggreen",
-      "linkedIn": "https://www.linkedin.com/in/williamggreen/",
-      "portfolio": "http://williamggreen.com/",
-      "email": "will.g.green@gmail.com",
-      "proImg": "WilliamGreen.png",
-      "resume": "WilliamGreen.pdf",
-      "funImg": "BW-WilliamGreen.png"
-    },
-    {
       "id": 10,
       "firstName": "Maggie",
       "lastName": "Greene",
@@ -205,7 +192,7 @@
       "proImg": "RebeccaPatek.png",
       "funImg": "RebeccaPatek.png",
       "resume": "RebeccaPatek.pdf",
-      "capstoneUrl": "https://www.youtube.com/embed/ytly2ywbxko"
+      "capstoneUrl": ""
     },
     {
       "id": 18,
@@ -220,20 +207,6 @@
       "funImg": "BW-KevinPenny.png",
       "resume": "KevinPenny.pdf",
       "capstoneUrl": "https://www.youtube.com/embed/GYMXeyZ2S7U"
-    },
-    {
-      "id": 19,
-      "firstName": "Case",
-      "lastName": "Scally",
-      "reelThemIn": "JavaScript is my favorite anime.",
-      "github": "https://github.com/casescally",
-      "linkedIn": "https://www.linkedin.com/in/casescally/",
-      "portfolio": "https://casescally.github.io",
-      "email": "casescally@gmail.com",
-      "proImg": "CaseScally.png",
-      "funImg": "CaseScally.png",
-      "resume": "CaseScally.pdf",
-      "capstoneUrl": ""
     },
     {
       "id": 20,
