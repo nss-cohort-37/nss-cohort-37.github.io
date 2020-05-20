@@ -22,6 +22,7 @@ export default function Developers() {
   const [activeDemoStudent, setActiveDemoStudent] = useState();
   const toggle = (student) => setActiveDemoStudent(student);
 
+
   return (
     <div>
       <a id="thedevelopers" name="thedevelopers" className="section-header"></a>
@@ -63,12 +64,19 @@ export default function Developers() {
               className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2"
             >
               <Card className="developers__card cohortMems mx-2">
+                <span>
+                  {student.hired == true? <div class="ribbon">
+                    <span>
+                      HIRED
+                    </span>
+                  </div>: null}
+                </span>
                 <CardImg
                   top
                   width="100%"
                   src={`images/classmates/${student.proImg}`}
                   alt="Card image cap"
-                />
+                  />
                 <CardBody>
                   <CardTitle>
                     <h5 className="text-center">
