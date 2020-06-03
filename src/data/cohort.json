@@ -105,6 +105,20 @@
       "hired": false
     },
     {
+      "id": 9,
+      "firstName": "William",
+      "lastName": "Green",
+      "reelThemIn": "Dog dog = new Dog()",
+      "github": "https://github.com/wggreen",
+      "linkedIn": "https://www.linkedin.com/in/williamggreen/",
+      "portfolio": "http://williamggreen.com/",
+      "email": "will.g.green@gmail.com",
+      "proImg": "WilliamGreen.png",
+      "funImg": "BW-WilliamGreen.png",
+      "resume": "WilliamGreen.pdf",
+      "hired": false
+    },
+    {
       "id": 10,
       "firstName": "Maggie",
       "lastName": "Greene",
