@@ -238,6 +238,20 @@
       "hired": true
     },
     {
+      "id": 19,
+      "firstName": "Case",
+      "lastName": "Scally",
+      "reelThemIn": "JavaScript is my favorite anime.",
+      "github": "https://github.com/casescally",
+      "linkedIn": "https://www.linkedin.com/in/casescally/",
+      "portfolio": "https://casescally.github.io",
+      "email": "casescally@gmail.com",
+      "proImg": "CaseScally.png",
+      "funImg": "CaseScally.png",
+      "resume": "CaseScally.pdf",
+      "capstoneUrl": ""
+    },
+    {
       "id": 20,
       "firstName": "Eli",
       "lastName": "Tamez",
