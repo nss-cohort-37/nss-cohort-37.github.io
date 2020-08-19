@@ -131,7 +131,7 @@
       "funImg": "MaggieGreene.png",
       "resume": "MaggieGreene.pdf",
       "capstoneUrl": "https://www.youtube.com/embed/xuPViS7oXog",
-      "hired": false
+      "hired": true
     },
     {
       "id": 11,
@@ -191,7 +191,7 @@
       "funImg": "BW-JamesNitz.png",
       "resume": "JamesNitz.pdf",
       "capstoneUrl": "https://www.youtube.com/embed/SD-qIlfpifA",
-      "hired": false
+      "hired": true
     },
     {
       "id": 16,
